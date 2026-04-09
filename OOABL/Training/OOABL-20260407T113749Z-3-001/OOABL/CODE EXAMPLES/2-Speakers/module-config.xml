@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+    <ModuleInfo Key="extensions.xxconference" Version="" Vendor="" VendorUrl="" 
+                DisplayName="xxconference" 
+                Description="xxconference training app" 
+                Date="" 
+                ClassName="com.extensions.xxconference.Module" 
+                Uri="urn:app:com.extensions.xxconference"/>
+    <Service
+        ServiceClass="com.qad.base.address.IEmployee"
+        ServiceKey=""
+        ImplClass="com.extensions.xxconference.employees.EmployeeExt"
+        LifetimePolicy="factory" /> 
+    <Service
+        ServiceClass="com.qad.qra.be.IVirtualBusinessEntity"
+        ServiceKey=""
+        ImplClass="com.extensions.xxconference.be.VirtualBusinessEntity"
+        LifetimePolicy="factory" />          
+</Module>
